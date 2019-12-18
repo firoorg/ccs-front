@@ -7,7 +7,7 @@ title: What is the ZCS, and what are its rules and expectations?
 
 In the cryptocurrency sphere there are many ways that projects try to fund their efforts. In recent years a veteran of the space may have heard terms such as ICO, Founder's/Dev Fee, Decentralized Treasury, and more.
 
-The Monero Project, which is itself a decentralized project without formalized leadership or governance structures, is unable or unwilling to partake in any of the above funding methods, and has looked for a more decentralized method of both raising and dispersing funds that doesn't compromise the ideals of the community. The result is the Community Crowdfunding System (ZCS) formerly known as the Forum Funding System (FFS).
+The Zcoin Project, which is itself a decentralized project without formalized leadership or governance structures, is unable or unwilling to partake in any of the above funding methods, and has looked for a more decentralized method of both raising and dispersing funds that doesn't compromise the ideals of the community. The result is the Community Crowdfunding System (ZCS) formerly known as the Forum Funding System (FFS).
 
 There are many different types of proposals, all with their own goals in mind. In the past, we have seen things from coding new software, developing third party resources, travel reimbursement for conference presenters, and hiring skilled individuals for full-time or part-time work.
 
