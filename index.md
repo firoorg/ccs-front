@@ -1,6 +1,6 @@
 ---
 layout: customnt
-title: Zcoin Crowdfunding System (ZCS)
+title: Firo Community Crowdfunding System (CCS)
 ---
 <div class="ffs-main">
         <div class="container description" >
