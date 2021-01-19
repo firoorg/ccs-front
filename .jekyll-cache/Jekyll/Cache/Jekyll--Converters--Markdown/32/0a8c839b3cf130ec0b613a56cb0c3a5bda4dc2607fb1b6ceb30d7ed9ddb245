@@ -1,0 +1,226 @@
+I"Ú4<h4 id="note-read-the-what-is-the-ccs-and-what-are-its-rules-and-expectations-page-before-continuing">Note: Read the <a href="/what-is-ccs">What is the CCS and What Are Its Rules and Expectations</a> page before continuing!</h4>
+
+<p>The CCS utilizes git, and Github for proposal tracking. A quickstart guide is provided at the top for those already well-versed in git, and step-by-step instructions (with pictures) are provided afterward for those who need help getting through the process. An example proposal is provided at the bottom of this document for referential purposes.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+  <li><a href="#quickstart-guide">Quickstart Guide</a></li>
+  <li><a href="#step-by-step-instructions">Step-by-step Instructions</a></li>
+  <li><a href="#example-proposal-front-matter">Example Proposal</a></li>
+  <li><a href="#editing-or-amending-a-proposal">Editing or Amending a Proposal</a></li>
+</ul>
+
+<h2 id="quickstart-guide">Quickstart Guide</h2>
+<ol>
+  <li>Register for an account on <a href="https://github.com">Github</a> and fork the <a href="https://github.com/zcoinofficial/ccs-proposals">CCS Proposals repository</a></li>
+  <li>Make a new branch, named similarly to your proposal</li>
+  <li>Add a new <code class="highlighter-rouge">.md</code> document, and title it similarly to the title of your proposal with your name or handle in the file name.</li>
+  <li>Use the template provided below for the front matter, and place it at the top of your proposal. You are responsible for adding the appropriate amount of milestones, with an equal number of payouts below the milestones. FORMATTING MUST BE PRESERVED, OR THE PROPOSAL WILL NOT WORK! Do NOT fill in the <code class="highlighter-rouge">done:</code> variable under <code class="highlighter-rouge">milestones:</code>, and do NOT fill in anything under <code class="highlighter-rouge">payouts:</code> besides making sure the number matches the number of milestones.</li>
+</ol>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: fr
+title:
+author:
+date:
+amount:
+milestones:
+  - name:
+    funds:
+    done:
+    status: unfinished
+  - name:
+    funds:
+    done:
+    status: unfinished
+payouts:
+  - date:
+    amount:
+  - date:
+    amount:
+---
+</code></pre></div></div>
+
+<ol>
+  <li>Underneath the front matter, write the rest of your proposal. Be sure to include what the proposal is about, who will be completing it, why it is important for the community, the milestones and projected timeline, and an expiration date for your proposal.</li>
+  <li>Save, commit, and make a Merge Request to the repo. Your MR title must be descriptive and relevant to your proposal. The MR description should be copy/pasted from the proposal contents for easy viewing (front matter excluded).</li>
+  <li>You're done. Go start letting people know about your proposal.</li>
+</ol>
+
+<h2 id="step-by-step-instructions">Step-by-step Instructions</h2>
+
+<h3 id="1-github">1. Github</h3>
+
+<p><strong>You will only have to do this step once! If you make future proposals, you can skip to Step 2.</strong></p>
+
+<p>First things first, you're going to need an account on <a href="https://github.com">Github</a>. Register for an account (use a strong password), and then navigate to the <a href="https://github.com/zcoinofficial/ccs-proposals">CCS Proposals repo</a>. Click the "Fork" button.</p>
+
+<p><img src="/img/how-to/fork.png" alt="Click this fork button" /></p>
+
+<p>You should see the "Forking zcoinofficial/ccs-proposals" message.</p>
+
+<p><img src="/img/how-to/fork-success.png" alt="Fork success" /></p>
+
+<p>When completed, you should see the repository under your username, indicating a successful fork.</p>
+
+<p><img src="/img/how-to/fork-success2.png" alt="Fork success 2" /></p>
+
+<h3 id="2-branches">2. Branches</h3>
+
+<p>If you're not familiar with git, then this next step might not make a lot of sense to you, but it is common and recommended practice for users of git and Github. Basically, just do this, even if you don't understand it. It makes the maintainer's lives a lot simpler.</p>
+
+<p>Click on Branch: master. <img src="/img/how-to/branches.png" alt="Click on Branches" /> Enter the name of the new branch in the "Find or create a branch" field, then click on Create Branch. The new branch name should be something similar to your proposal. No spaces are allowed. <img src="/img/how-to/new-branch.png" alt="Click on New Branch." /> You should be taken back to your repository, but now on the new branch, as evidenced by seeing the name of your new branch on the screen. A screenshot is provided below to show where you would see it. <img src="/img/how-to/new-branch-success.png" alt="Hooray! You're on your new branch." /></p>
+
+<h3 id="3-make-the-proposal-file">3. Make the proposal file</h3>
+
+<p>From here, you're going to click on the "Create new file button" in your new proposal branch. <img src="/img/how-to/new-file.png" alt="Plus button" /> On this new screen, fill in the "Name your fileâ€¦" field with a descriptive title that includes your name, or online handle, is relevant to your proposal, and ends in <code class="highlighter-rouge">.md</code>. As an example, if Sandra was to make a proposal asking for funding so I can make videos for Firo, I might title the file <code class="highlighter-rouge">sandra-make-videos-for-zcoin.md</code>.</p>
+
+<h3 id="4-front-matter">4. Front matter</h3>
+
+<p>Before you begin writing your proposal, however, you must copy the following template and paste it onto the top of your file:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: fr
+title:
+author:
+date:
+amount:
+milestones:
+  - name:
+    funds:
+    done:
+    status: unfinished
+  - name:
+    funds:
+    done:
+    status: unfinished
+payouts:
+  - date:
+    amount:
+  - date:
+    amount:
+---
+</code></pre></div></div>
+
+<p>Fill this template out as follows:</p>
+
+<p><code class="highlighter-rouge">layout:</code> Do NOT touch this field.</p>
+
+<p><code class="highlighter-rouge">title:</code> Fill this in with a descriptive title of what your proposal wants to accomplish. Copy this field into a notepad program, as the EXACT title will be used in Step 6.</p>
+
+<p><code class="highlighter-rouge">author:</code> Put your name or handle here.</p>
+
+<p><code class="highlighter-rouge">date:</code> Put the date you are proposing and submitting this to the community in the following format: <code class="highlighter-rouge">January 31, 2019</code>.</p>
+
+<p><code class="highlighter-rouge">amount:</code> Put the amount of Firo you are requesting for complete this.</p>
+
+<p><code class="highlighter-rouge">milestones:</code> Do not put anything after Milestones directly, but rather the fields that follow it. Copy and paste from one dash (<code class="highlighter-rouge">-</code>) to the other, depending on how many milestones your proposal will take. So if you have four milestones, you should see put the following:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>milestones:
+  - name:
+    funds:
+    done:
+    status: unfinished
+  - name:
+    funds:
+    done:
+    status: unfinished
+  - name:
+    funds:
+    done:
+    status: unfinished
+  - name:
+    funds:
+    done:
+    status: unfinished
+</code></pre></div></div>
+
+<p>EXACT FORMATTING MUST BE PRESERVED WITH THE SPACING. Otherwise the proposal will not work. It's the way Jekyll (on which this is built) functions. The dashes must be two spaces from the left margin.</p>
+
+<p>Fill in the <code class="highlighter-rouge">name:</code> field with the name of the Milestone (for example: Complete Video 1), and the <code class="highlighter-rouge">funds:</code> field with the amount of Firo you expect to receive for completing the milestones. Do not touch the <code class="highlighter-rouge">done:</code> or <code class="highlighter-rouge">status:</code> fields. Repeat until all the <code class="highlighter-rouge">name:</code> and <code class="highlighter-rouge">funds:</code> fields are filled in. If this confuses you, please scroll to the end of the page for an example of all of this correctly filled out.</p>
+
+<p><code class="highlighter-rouge">payouts:</code> Copy and paste the same amount of variables under payouts that you have under milestones. If you have three milestones, you should have three sets <code class="highlighter-rouge">date:</code> and <code class="highlighter-rouge">amount:</code> variables underneath <code class="highlighter-rouge">payouts:</code>. Do not fill in these fields.</p>
+
+<h3 id="5-writing-your-proposal">5. Writing your proposal</h3>
+
+<p>NOW you can put your proposal beneath the front matter (underneath the last three dashes). When writing the proposal remember to include:</p>
+
+<ul>
+  <li>What the proposal is about.</li>
+  <li>Who will complete the proposal?</li>
+  <li>Why it is important for Firo and the community.</li>
+  <li>Your milestones and projected timeline</li>
+  <li>An expiration date for the proposal. If it's not funded or finished by a certain time, the funds can be released to other proposals or the General Fund.. This keeps things moving along in a timely fashion.</li>
+</ul>
+
+<p>It is recommended that after your proposal is written, you copy and paste it (minus the front matter from step 4) and paste it into a notepad. This will be used in step 6.</p>
+
+<p>After all of this is done, click the green "Commit new file" button at the bottom.</p>
+
+<h3 id="6-make-a-merge-request">6. Make a Merge Request</h3>
+
+<p>After you click "Commit new file", you will be taken to your branch where you can see the newly created file. You should also see a "Compare &amp; pull request" button or just "Pull request" button. Click on it to start the pull request.</p>
+
+<p><img src="/img/how-to/mr.png" alt="File creation success and merge request button" /></p>
+
+<p>You will see a screen with a few things to fill out. In the Title field, put the same title that you used in the front matter of your proposal. In the "Leave a comment" text box, paste in the proposal EXACTLY AS IT APPEARS IN YOUR .md file, minus the front matter. If you followed Step 5, you should have it in a notepad program of some sort. <img src="/img/how-to/submit-mr.png" alt="Fill in title and description fields" /></p>
+
+<p>After this is done, scroll down, and click the green Create pull request button at the bottom left of the page. You should be taken to the Pull Request page for your proposal.</p>
+
+<h3 id="7-youre-done-now-go-drum-up-some-support">7. You're done. Now go drum up some support.</h3>
+
+<p>Good job on getting all the way here. When you finish, the community will be discussing your proposal on the merge request itself. If you want to weigh in on the discussion, feel free. It will be up to you to get people to support your proposal, both for it to be moved to the Funding Required stage, and also while its awaiting donations. Best of luck, and thank you so much for contributing to Firo. We, the community, really appreciate it.</p>
+
+<h2 id="example-proposal-front-matter">Example Proposal Front Matter</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: fr
+title: Make a Firo Spaceship
+author: somekid
+date: January 31, 2019
+amount: 10000
+milestones:
+  - name: Milestone 1 - Purchase the parts
+    funds: 30% (3000 FIRO)
+    done:
+    status: unfinished
+  - name: Milestone 2 - Assemble the spaceship
+    funds: 50% (5000 FIRO)
+    done:
+    status: unfinished
+  - name: Milestone 3 - Throw a big party
+    funds: 20% (2000 FIRO)
+    done:
+    status: unfinished
+payouts:
+  - date:
+    amount:
+  - date:
+    amount:
+  - date:
+    amount:
+---
+</code></pre></div></div>
+
+<p>The proposal will be written here.</p>
+
+<h2 id="editing-or-amending-a-proposal">Editing or Amending a Proposal</h2>
+
+<p>Often times, through community critique and feedback, it is necessary to edit a proposal after the Merge Request has already been submitted. This can be done in the following way.</p>
+
+<h3 id="navigate-to-your-ccs-proposals-repository">Navigate to your CCS Proposals repository</h3>
+
+<p>Find your copy of <code class="highlighter-rouge">CSS Proposals</code> in your repositories and click on it.</p>
+
+<h3 id="branches-and-files">Branches and files</h3>
+
+<p>Locate the dropdown with all of your active branches, click it, and select the branch on which your proposal was made. <img src="/img/how-to/edit-find-branch.png" alt="Branches dropdown" /></p>
+
+<p>Once you are on the page with the correct branch, as evidenced by the name of the branch showing (see the last screenshot in step 2 of the step-by-step instruction to see where) find and select the file of your proposal (this is why descriptive branch and file names are important).</p>
+
+<h3 id="editing-the-file">Editing the file</h3>
+
+<p>Once you are on the page of your file, on the upper right corner should be an Edit button. <img src="/img/how-to/edit-edit-button.png" alt="Edit button" /> Select this and you should be taken to the editing screen. Amend the proposal as needed (remember to edit the front matter too if any of those variables are changing), and press the green Commit Changes button at the bottom.</p>
+
+<p><strong>Warning! Not only the changes but THE FACT that you made changes will be visible to EVERYONE! You CANNOT stealth edit your proposal. This is good for transparency. See the screenshot below.</strong> <img src="/img/how-to/edit-editing-seen.png" alt="Edits seen" /></p>
+:ET
