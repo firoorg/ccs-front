@@ -9,9 +9,9 @@ title: Firo Community Crowdfunding System (CCS)
         <section class="container">
             <div class="row">
                <div class="half col-sm-6 col-xs-12">
-                    <a href="{{site.baseurl}}/ideas/" class="ffs-cat row">
+                    <a href="{{site.baseurl}}/ideas/" class="ffs-cat row cat1">
                      <div class="col-sm-4 col-xs-4">
-                         <img src="/img/ideas.png" class="icon"/>
+                         <img src="/img/ccs-ideas.png" class="icon"/>
                      </div>
                      <div class="col-sm-8 col-xs-8">
                          <h2>Ideas</h2>
@@ -20,9 +20,9 @@ title: Firo Community Crowdfunding System (CCS)
                      </a>
                </div>
                <div class="half col-sm-6 col-xs-12">
-                  <a href="{{site.baseurl}}/funding-required/" class="row ffs-cat">
+                  <a href="{{site.baseurl}}/funding-required/" class="row ffs-cat cat2">
                      <div class="col-sm-4 col-xs-4">
-                         <img src="/img/funding-required.png" class="icon"/>
+                         <img src="/img/ccs-funding-required.png" class="icon"/>
                      </div>
                      <div class="col-sm-8 col-xs-8">
                          <h2>Funding Required</h2>
@@ -31,9 +31,9 @@ title: Firo Community Crowdfunding System (CCS)
                    </a>
                </div>
                <div class="half col-sm-6 col-xs-12">
-                  <a href="{{site.baseurl}}/work-in-progress/" class="row ffs-cat">
+                  <a href="{{site.baseurl}}/work-in-progress/" class="row ffs-cat cat3">
                     <div class="col-sm-4 col-xs-4">
-                         <img src="/img/work-in-progress.png" class="icon"/>
+                         <img src="/img/ccs-work-in-progress.png" class="icon"/>
                      </div>
                      <div class="col-sm-8 col-xs-8">
                          <h2>Work in Progress</h2>
@@ -42,9 +42,9 @@ title: Firo Community Crowdfunding System (CCS)
                    </a>
                </div>
                <div class="half col-sm-6 col-xs-12">
-                    <a href="{{site.baseurl}}/completed-proposals/" class="ffs-cat row">
+                    <a href="{{site.baseurl}}/completed-proposals/" class="ffs-cat row cat4">
                         <div class="col-sm-4 col-xs-4">
-                             <img src="/img/completed-tasks.png" class="icon"/>
+                             <img src="/img/ccs-completed-tasks.png" class="icon"/>
                          </div>
                          <div class="col-sm-8 col-xs-8">
                              <h2>Completed Tasks</h2>

@@ -25,7 +25,7 @@ layout: base
                                 <p class="author-list">{{proposal.author}}</p>
                                 <p class="date-list">{{proposal.date}}</p>
                                 <p class="date-list contributor">{{proposal.contributions}} contributors</p>
-                                <p class="bar-fund-status">Raised <span class="progress-number-funded">{{proposal.amount-funded}}</span> of <span class="progress-number-goal">{{proposal.amount}}</span> XZC</p>
+                                <p class="bar-fund-status">Raised <span class="progress-number-funded">{{proposal.amount-funded}}</span> of <span class="progress-number-goal">{{proposal.amount}}</span> FIRO</p>
                             <div class="progress-bar">
                                 <span class="fund-progress" style="width: {{proposal.percentage}}%"></span>
                             </div>
@@ -35,10 +35,10 @@ layout: base
                                     <label for="tab-con" class="accordion btn">Contribute</label>
                                     <div class="tab-content">
                                         <div class="instructions">
-                                            <p>1. Choose the amount of XZC you wish to contribute to this proposal.</p>
+                                            <p>1. Choose the amount of FIRO you wish to contribute to this proposal.</p>
                                             <p>2. Scan the QR code or tap to open in your Zcoin wallet app</p>
                                             <p><a href="zcoin:{{ proposal.donate-address }}" class="qr"><img src="{{ proposal.donate-qr-code }}"></a></p>
-                                            <p>or copy the following XZC address:</p>
+                                            <p>or copy the following FIRO address:</p>
                                             <p class="string">{{ proposal.donate-address }}</p>
                                             <p>3. Send! Thank you! You are amazing!</p>
                                         </div>
